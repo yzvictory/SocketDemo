@@ -1,0 +1,505 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AE19DAAA18D03D77003919A4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE19DAA918D03D77003919A4 /* Foundation.framework */; };
+		AE19DAAC18D03D78003919A4 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE19DAAB18D03D78003919A4 /* CoreGraphics.framework */; };
+		AE19DAAE18D03D78003919A4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE19DAAD18D03D78003919A4 /* UIKit.framework */; };
+		AE19DAB418D03D78003919A4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = AE19DAB218D03D78003919A4 /* InfoPlist.strings */; };
+		AE19DAB618D03D78003919A4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AE19DAB518D03D78003919A4 /* main.m */; };
+		AE19DABA18D03D79003919A4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AE19DAB918D03D79003919A4 /* AppDelegate.m */; };
+		AE19DABD18D03D79003919A4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE19DABB18D03D79003919A4 /* Main.storyboard */; };
+		AE19DAC018D03D79003919A4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AE19DABF18D03D79003919A4 /* ViewController.m */; };
+		AE19DAC218D03D79003919A4 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AE19DAC118D03D79003919A4 /* Images.xcassets */; };
+		AE19DAC918D03D79003919A4 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE19DAC818D03D79003919A4 /* XCTest.framework */; };
+		AE19DACA18D03D79003919A4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE19DAA918D03D77003919A4 /* Foundation.framework */; };
+		AE19DACB18D03D79003919A4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE19DAAD18D03D78003919A4 /* UIKit.framework */; };
+		AE19DAD318D03D79003919A4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = AE19DAD118D03D79003919A4 /* InfoPlist.strings */; };
+		AE19DAD518D03D79003919A4 /* Socket_Server_StudyTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AE19DAD418D03D79003919A4 /* Socket_Server_StudyTests.m */; };
+		AE19DAE318D03DB7003919A4 /* AsyncSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = AE19DAE018D03DB7003919A4 /* AsyncSocket.m */; };
+		AE19DAE418D03DB7003919A4 /* AsyncUdpSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = AE19DAE218D03DB7003919A4 /* AsyncUdpSocket.m */; };
+		AE19DAE618D03DC3003919A4 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE19DAE518D03DC3003919A4 /* CFNetwork.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AE19DACC18D03D79003919A4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AE19DA9E18D03D77003919A4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AE19DAA518D03D77003919A4;
+			remoteInfo = "Socket-Server-Study";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AE19DAA618D03D77003919A4 /* Socket-Server-Study.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Socket-Server-Study.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AE19DAA918D03D77003919A4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		AE19DAAB18D03D78003919A4 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		AE19DAAD18D03D78003919A4 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		AE19DAB118D03D78003919A4 /* Socket-Server-Study-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Socket-Server-Study-Info.plist"; sourceTree = "<group>"; };
+		AE19DAB318D03D78003919A4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		AE19DAB518D03D78003919A4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AE19DAB718D03D78003919A4 /* Socket-Server-Study-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Socket-Server-Study-Prefix.pch"; sourceTree = "<group>"; };
+		AE19DAB818D03D79003919A4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		AE19DAB918D03D79003919A4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		AE19DABC18D03D79003919A4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AE19DABE18D03D79003919A4 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		AE19DABF18D03D79003919A4 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		AE19DAC118D03D79003919A4 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		AE19DAC718D03D79003919A4 /* Socket-Server-StudyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Socket-Server-StudyTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AE19DAC818D03D79003919A4 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		AE19DAD018D03D79003919A4 /* Socket-Server-StudyTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Socket-Server-StudyTests-Info.plist"; sourceTree = "<group>"; };
+		AE19DAD218D03D79003919A4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		AE19DAD418D03D79003919A4 /* Socket_Server_StudyTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Socket_Server_StudyTests.m; sourceTree = "<group>"; };
+		AE19DADF18D03DB7003919A4 /* AsyncSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AsyncSocket.h; sourceTree = "<group>"; };
+		AE19DAE018D03DB7003919A4 /* AsyncSocket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AsyncSocket.m; sourceTree = "<group>"; };
+		AE19DAE118D03DB7003919A4 /* AsyncUdpSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AsyncUdpSocket.h; sourceTree = "<group>"; };
+		AE19DAE218D03DB7003919A4 /* AsyncUdpSocket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AsyncUdpSocket.m; sourceTree = "<group>"; };
+		AE19DAE518D03DC3003919A4 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		AE19DAE718D04005003919A4 /* Config.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Config.h; path = ../Config.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AE19DAA318D03D77003919A4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE19DAE618D03DC3003919A4 /* CFNetwork.framework in Frameworks */,
+				AE19DAAC18D03D78003919A4 /* CoreGraphics.framework in Frameworks */,
+				AE19DAAE18D03D78003919A4 /* UIKit.framework in Frameworks */,
+				AE19DAAA18D03D77003919A4 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE19DAC418D03D79003919A4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE19DAC918D03D79003919A4 /* XCTest.framework in Frameworks */,
+				AE19DACB18D03D79003919A4 /* UIKit.framework in Frameworks */,
+				AE19DACA18D03D79003919A4 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AE19DA9D18D03D76003919A4 = {
+			isa = PBXGroup;
+			children = (
+				AE19DADE18D03DB7003919A4 /* AsyncSocket */,
+				AE19DAAF18D03D78003919A4 /* Socket-Server-Study */,
+				AE19DACE18D03D79003919A4 /* Socket-Server-StudyTests */,
+				AE19DAA818D03D77003919A4 /* Frameworks */,
+				AE19DAA718D03D77003919A4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AE19DAA718D03D77003919A4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AE19DAA618D03D77003919A4 /* Socket-Server-Study.app */,
+				AE19DAC718D03D79003919A4 /* Socket-Server-StudyTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AE19DAA818D03D77003919A4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AE19DAE518D03DC3003919A4 /* CFNetwork.framework */,
+				AE19DAA918D03D77003919A4 /* Foundation.framework */,
+				AE19DAAB18D03D78003919A4 /* CoreGraphics.framework */,
+				AE19DAAD18D03D78003919A4 /* UIKit.framework */,
+				AE19DAC818D03D79003919A4 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AE19DAAF18D03D78003919A4 /* Socket-Server-Study */ = {
+			isa = PBXGroup;
+			children = (
+				AE19DAE718D04005003919A4 /* Config.h */,
+				AE19DAB818D03D79003919A4 /* AppDelegate.h */,
+				AE19DAB918D03D79003919A4 /* AppDelegate.m */,
+				AE19DABB18D03D79003919A4 /* Main.storyboard */,
+				AE19DABE18D03D79003919A4 /* ViewController.h */,
+				AE19DABF18D03D79003919A4 /* ViewController.m */,
+				AE19DAC118D03D79003919A4 /* Images.xcassets */,
+				AE19DAB018D03D78003919A4 /* Supporting Files */,
+			);
+			path = "Socket-Server-Study";
+			sourceTree = "<group>";
+		};
+		AE19DAB018D03D78003919A4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AE19DAB118D03D78003919A4 /* Socket-Server-Study-Info.plist */,
+				AE19DAB218D03D78003919A4 /* InfoPlist.strings */,
+				AE19DAB518D03D78003919A4 /* main.m */,
+				AE19DAB718D03D78003919A4 /* Socket-Server-Study-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		AE19DACE18D03D79003919A4 /* Socket-Server-StudyTests */ = {
+			isa = PBXGroup;
+			children = (
+				AE19DAD418D03D79003919A4 /* Socket_Server_StudyTests.m */,
+				AE19DACF18D03D79003919A4 /* Supporting Files */,
+			);
+			path = "Socket-Server-StudyTests";
+			sourceTree = "<group>";
+		};
+		AE19DACF18D03D79003919A4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AE19DAD018D03D79003919A4 /* Socket-Server-StudyTests-Info.plist */,
+				AE19DAD118D03D79003919A4 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		AE19DADE18D03DB7003919A4 /* AsyncSocket */ = {
+			isa = PBXGroup;
+			children = (
+				AE19DADF18D03DB7003919A4 /* AsyncSocket.h */,
+				AE19DAE018D03DB7003919A4 /* AsyncSocket.m */,
+				AE19DAE118D03DB7003919A4 /* AsyncUdpSocket.h */,
+				AE19DAE218D03DB7003919A4 /* AsyncUdpSocket.m */,
+			);
+			path = AsyncSocket;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AE19DAA518D03D77003919A4 /* Socket-Server-Study */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AE19DAD818D03D79003919A4 /* Build configuration list for PBXNativeTarget "Socket-Server-Study" */;
+			buildPhases = (
+				AE19DAA218D03D77003919A4 /* Sources */,
+				AE19DAA318D03D77003919A4 /* Frameworks */,
+				AE19DAA418D03D77003919A4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Socket-Server-Study";
+			productName = "Socket-Server-Study";
+			productReference = AE19DAA618D03D77003919A4 /* Socket-Server-Study.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AE19DAC618D03D79003919A4 /* Socket-Server-StudyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AE19DADB18D03D79003919A4 /* Build configuration list for PBXNativeTarget "Socket-Server-StudyTests" */;
+			buildPhases = (
+				AE19DAC318D03D79003919A4 /* Sources */,
+				AE19DAC418D03D79003919A4 /* Frameworks */,
+				AE19DAC518D03D79003919A4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AE19DACD18D03D79003919A4 /* PBXTargetDependency */,
+			);
+			name = "Socket-Server-StudyTests";
+			productName = "Socket-Server-StudyTests";
+			productReference = AE19DAC718D03D79003919A4 /* Socket-Server-StudyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AE19DA9E18D03D77003919A4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = ronghai_fan;
+				TargetAttributes = {
+					AE19DAC618D03D79003919A4 = {
+						TestTargetID = AE19DAA518D03D77003919A4;
+					};
+				};
+			};
+			buildConfigurationList = AE19DAA118D03D77003919A4 /* Build configuration list for PBXProject "Socket-Server-Study" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AE19DA9D18D03D76003919A4;
+			productRefGroup = AE19DAA718D03D77003919A4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AE19DAA518D03D77003919A4 /* Socket-Server-Study */,
+				AE19DAC618D03D79003919A4 /* Socket-Server-StudyTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AE19DAA418D03D77003919A4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE19DAC218D03D79003919A4 /* Images.xcassets in Resources */,
+				AE19DAB418D03D78003919A4 /* InfoPlist.strings in Resources */,
+				AE19DABD18D03D79003919A4 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE19DAC518D03D79003919A4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE19DAD318D03D79003919A4 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AE19DAA218D03D77003919A4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE19DAC018D03D79003919A4 /* ViewController.m in Sources */,
+				AE19DAE418D03DB7003919A4 /* AsyncUdpSocket.m in Sources */,
+				AE19DABA18D03D79003919A4 /* AppDelegate.m in Sources */,
+				AE19DAB618D03D78003919A4 /* main.m in Sources */,
+				AE19DAE318D03DB7003919A4 /* AsyncSocket.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE19DAC318D03D79003919A4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE19DAD518D03D79003919A4 /* Socket_Server_StudyTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AE19DACD18D03D79003919A4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AE19DAA518D03D77003919A4 /* Socket-Server-Study */;
+			targetProxy = AE19DACC18D03D79003919A4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AE19DAB218D03D78003919A4 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AE19DAB318D03D78003919A4 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		AE19DABB18D03D79003919A4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AE19DABC18D03D79003919A4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AE19DAD118D03D79003919A4 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AE19DAD218D03D79003919A4 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AE19DAD618D03D79003919A4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = NO;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		AE19DAD718D03D79003919A4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = NO;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AE19DAD918D03D79003919A4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Socket-Server-Study/Socket-Server-Study-Prefix.pch";
+				INFOPLIST_FILE = "Socket-Server-Study/Socket-Server-Study-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "857c213d-2476-4b6d-b18a-27bd89d372c8";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		AE19DADA18D03D79003919A4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Socket-Server-Study/Socket-Server-Study-Prefix.pch";
+				INFOPLIST_FILE = "Socket-Server-Study/Socket-Server-Study-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "857c213d-2476-4b6d-b18a-27bd89d372c8";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		AE19DADC18D03D79003919A4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Socket-Server-Study.app/Socket-Server-Study";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Socket-Server-Study/Socket-Server-Study-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Socket-Server-StudyTests/Socket-Server-StudyTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		AE19DADD18D03D79003919A4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Socket-Server-Study.app/Socket-Server-Study";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Socket-Server-Study/Socket-Server-Study-Prefix.pch";
+				INFOPLIST_FILE = "Socket-Server-StudyTests/Socket-Server-StudyTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AE19DAA118D03D77003919A4 /* Build configuration list for PBXProject "Socket-Server-Study" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AE19DAD618D03D79003919A4 /* Debug */,
+				AE19DAD718D03D79003919A4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AE19DAD818D03D79003919A4 /* Build configuration list for PBXNativeTarget "Socket-Server-Study" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AE19DAD918D03D79003919A4 /* Debug */,
+				AE19DADA18D03D79003919A4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AE19DADB18D03D79003919A4 /* Build configuration list for PBXNativeTarget "Socket-Server-StudyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AE19DADC18D03D79003919A4 /* Debug */,
+				AE19DADD18D03D79003919A4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AE19DA9E18D03D77003919A4 /* Project object */;
+}
